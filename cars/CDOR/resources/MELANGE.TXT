@@ -1,0 +1,60 @@
+MELANGE XGT-88 by Alan Rotoi
+
+
+After two failed tries, born is this beauty in 2003.
+
+It has similar performance to an IMSA car, but I built it taking codes from Countach, Lamborghini LM-002, Corvette, Porsche 962, Jaguar, Acura NSX, and the rest was made by me. The rev meter was adapted to the dashboard and for the car exigences. The height was changed too. It's a little bit higher than the IMSA cars but not as high as the others.
+
+This car is driveable with automatic or manual transmission and it's 100% secure (I mean you won't find bugs or unexpected reactions).
+
+Here is the final and complete version from 2021 called the Melange XGT-88 19th Anniversary. It has a new 3D model and dashboard. It's an aesthetic change. The performance and statistics weren't changed.
+
+
+Statistics:
+
+Vehicle Type: Front Engine, 2-door coupe
+
+Price: $17,500
+
+Engine: V-8 turbo
+
+HP: 253
+
+C.C.:3000
+
+Top Speed: 218 mph
+
+Transmission: 5-speed
+
+Gear Max. Speed:
+I..............87 mph
+II.............111 mph
+III............150 mph
+IV.............175 mph
+V..............218 mph
+
+Power Gear: None
+
+Acceleration (automatic transmission test):
+
+0-60 mph: 3.55 secs.
+0-100 mph: 6.1 secs.
+0-180 mph: 21.45 secs.
+
+Speedometer: Digital
+
+Available Colors: Blue, Red, Yellow, White Mercury, Brown Street, Black Skid, Green Brazil, Violet Suki and White Italo.
+
+There are four files in this zip file:
+- CARCDOR.RES
+- STCDOR.3SH
+- STDACDOR.VSH
+- STDBCDOR.VSH
+
+If you find any error please report it to me.
+Enjoy it!
+
+Alan Rotoi
+e-mail: alanrotoi@gmail.com
+IG: @patricosuna
+TW: @patricosuna

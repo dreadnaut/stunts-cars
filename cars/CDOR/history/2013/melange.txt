@@ -1,0 +1,53 @@
+After two failed trys born this beauty called Melange XGT-88.
+It have a similar performance of an IMSA car, but I built it taking codes from Countach, Lamborghini LM-002, Corvette, Porsche 962, Jaguar, Acura NSX, and the rest was made by me. The rev meter was adapted to the dashboard and for the car exigences. The height was changed too. It's a little bit higher than the IMSA cars but not as higher as the others. 
+This car is driveable with automatic  or manual transmission and it's 100% secure (I mean you won't find bugs or unexpected reactions).
+
+
+Statistics:
+Vehicule Type: Front Engine, 2-doors coupe
+
+Price: $17,500
+
+Engine: V-8 turbo
+
+HP: 253
+
+C.C.:3000
+
+Top Speed: 218 mph
+
+Transmission: 5-speed
+
+Gear max. speed:
+I..............87 mph
+II.............111 mph
+III............150 mph
+IV............175 mph
+V.............218 mph
+
+Power Gear: none
+
+Acceleration (automatic transmission test):
+
+0-60 mph: 3.55 secs.
+0-100 mph: 6.1 secs.
+0-180 mph: 21.45 secs.
+
+Speedometer: Digital
+
+Available Colors: blue, gray, yellow, dark gray, red, golden and cyan.
+
+Stunts version: 1.1
+
+There are four files in this zip file: 
+- carcdor.res
+- stcdor.p3s
+- stacdor.pvs
+- stbcdor.pvs
+
+If you found any error or mistake please report it to me.
+Enjoy it!
+
+Alan Rotoi
+e-mail: alanrotoi@yahoo.se
+ICQ#: 18929503
