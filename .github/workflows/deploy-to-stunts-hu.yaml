@@ -1,0 +1,46 @@
+name: Publish updates to stunts.hu
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-via-sftp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔧 Download git-ftp
+        shell: bash
+        run: |
+          GIT_FTP=https://raw.githubusercontent.com/git-ftp/git-ftp/1.6.0/git-ftp 
+          curl --silent --show-error $GIT_FTP > .git/git-ftp
+          chmod 755 .git/git-ftp
+
+      - name: 🔒 Prepare SSH configuration
+        shell: bash
+        run: |
+          mkdir $HOME/.ssh
+          echo "${{ secrets.SFTP_KEY }}" > $HOME/.ssh/sftp-key
+          echo "${{ secrets.KNOWN_HOSTS }}" > $HOME/.ssh/known_hosts
+          chmod 600 $HOME/.ssh/*
+
+      - name: ☑️ Check SFTP connectivity
+        shell: bash
+        run: echo ls z*  | sftp -i $HOME/.ssh/sftp-key stunts.hu@sftp.webdream.hu
+
+      - name: 🔍 Prepare ignore patterns
+        run: echo ".git*" > .git-ftp-ignore
+
+      - name: 📂 Upload files
+        shell: bash
+        run: |
+          .git/git-ftp push --auto-init \
+            --syncroot "cars/" \
+            --remote-root "car-archive/" \
+            --user "${{ secrets.SFTP_USER }}" \
+            --key "$HOME/.ssh/sftp-key" \
+            "sftp://${{ secrets.SFTP_SERVER }}/"
+
